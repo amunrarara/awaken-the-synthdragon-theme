@@ -1,0 +1,45 @@
+{
+  "name": "awaken-the-synth-dragon",
+  "displayName": "Awaken the Synth-Dragon",
+  "description": "",
+  "version": "1.0.1",
+  "author": "Sundragon the Scribe",
+  "publisher": "sundragontech",
+  "icon": "icon.png",
+
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/amunrarara/synthdragon-vscode-theme"
+  },
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "dependencies": {
+      "vsce": "^1.100.1"
+  },
+  "keywords": [
+    "retro",
+    "80s",
+    "vaporwave",
+    "synthwave",
+    "fluoromachine",
+    "animated",
+    "theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Awaken the Synth-Dragon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/synthdragon.json"
+      }
+    ]
+  }
+}
